@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install ffmpeg"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://s3.amazonaws.com/dewey_assets/with264.tar.gz"
+DOWNLOAD_URL="http://ffdewey.herokuapp.com/output/c77fc1b6-aa22-408f-8052-b82c741fe1b8"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
